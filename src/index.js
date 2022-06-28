@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import { configureStore, createReducer } from '@reduxjs/toolkit';
+// import { configureStore } from '@reduxjs/toolkit';
 import { Provider } from 'react-redux';
+// import userReducer from './reducers/userReducer';
+import store from './reducers/store';
 
 
 
-const store = configureStore({ reducer: rootReducer })
+// const store = configureStore({ reducer: userReducer })
 
 
 
